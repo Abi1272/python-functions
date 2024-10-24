@@ -1,0 +1,19 @@
+import random #module/library needed for random function
+
+
+#----------Function definition---------
+def MonsterGen():
+    num = random.randrange(0, 100)
+    if num < 20:
+        print("a vampire appeared!")
+    elif num < 25:
+        print("a ogre chases you!")
+    elif num < 75:
+        print("a spider attacks!")
+    else:
+        print("A zombie slowly creeps up to you")
+#--------end of function definition------
+    
+while True: #game loop
+    MonsterGen() #function call
+    choice = input("Enter any key to continue...")
