@@ -1,0 +1,6 @@
+#function definition
+def AddThreeNums(x, y, a):
+    print(x, "+", y, "+", a, "is", x+y+a)
+    
+#here's the main section of the code
+AddThreeNums(3,5,7)
