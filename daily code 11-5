@@ -1,0 +1,46 @@
+def InsultCompliment(name, mode):
+    if mode == "insult":
+        print(name, "likes his cheese drippy")
+    else:
+        print(name, "You smell very good")
+    
+InsultCompliment("Devin", "insult")
+
+
+
+
+
+
+import random
+
+def Magic8Ball(question):
+    num = random.randrange(1, 100)
+    if num < 20:
+        print("signs point to yes")
+    elif num <40: 
+        print("very doubtful")
+    elif num < 50:
+        print("Don't count on it")
+    elif num < 60:
+        print("Ask again later")
+    else:
+        ("without a doubt")
+    
+    
+    
+Magic8Ball("Is Devin sigma???")
+
+
+
+
+
+def Box(duck, goose):
+
+    for i in range(duck):
+        for j in range(goose):
+            print("*", end = "")
+        print()
+    
+Box(4,7)
+Box(10,4)
+Box(5,5)
