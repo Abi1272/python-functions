@@ -7,7 +7,7 @@ def InsultCompliment(name, mode):
 InsultCompliment("Devin", "insult")
 
 
-
+---------------------------------------------------------------------
 
 
 
@@ -31,7 +31,7 @@ def Magic8Ball(question):
 Magic8Ball("Is Devin sigma???")
 
 
-
+---------------------------------------------------------------------
 
 
 def Box(duck, goose):
@@ -44,3 +44,15 @@ def Box(duck, goose):
 Box(4,7)
 Box(10,4)
 Box(5,5)
+
+
+
+---------------------------------------------------------------------
+
+def Average(x, y, z, k):
+    return (x+y+z+k)/4
+    
+print("The average of 4, 5, 6, and 7 is", Average(4, 5, 6, 7))
+
+
+
