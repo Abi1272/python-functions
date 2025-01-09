@@ -1,0 +1,36 @@
+#function definition
+def add_numbers(a, b):
+    return a + b
+
+
+result = add_numbers(5, 3) #function call
+print("The sum of the number is:", result)
+
+
+#------------------------------------------
+
+def circleArea(a):
+    return 3.14*a*a
+
+
+result = circleArea(5)
+print("the area of the circle is:", result)
+
+#------------------------------------------
+ 
+def FtoC(a):
+    return ( a - 32 )*9/5
+
+
+result = FtoC(10) #function call
+print("Farenheight temp converted to celcius is:", result)
+
+#------------------------------------------
+
+def AverageOfThree(a, b, c):
+    return (a + b + c)/2
+
+
+result = AverageOfThree(5, 3, 2) #function call
+print("The averge of the three numbers is:", result)
+
