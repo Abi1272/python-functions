@@ -1,0 +1,23 @@
+def CircleCircumference(a):
+    return 2*3.14*a
+
+
+result = CircleCircumference(23)
+print("the circumference of the circle is:", result)
+#----------------------------------------------------------------------
+def isEven(num):
+    if num%2==0:
+        return True
+    else:
+        return False
+    
+
+print("the number is:", isEven(8))
+#----------------------------------------------------------------------
+
+def frog(pibble):
+    for i in range(pibble):
+        print("ribbit")
+
+frog(10)
+
