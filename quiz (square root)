@@ -1,0 +1,31 @@
+import math
+def PythagTheorem(a, b):
+    c = math.sqrt(a*a + b*b)
+    return c
+
+print(PythagTheorem(3,4))
+
+#------------------------
+
+def CheckSign(num):
+    if num > 0:
+        print("positive!")
+    elif num < 0:
+        print("negative!")
+    else:
+        print("zero!")
+    
+CheckSign(7)
+
+#-----------------------
+
+def factorial(n):
+    pibble = 1
+    for i in range(1,n+1):
+        pibble*=i
+    return pibble
+
+print(factorial(5))
+
+
+    
